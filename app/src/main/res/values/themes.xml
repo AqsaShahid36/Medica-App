@@ -44,4 +44,12 @@
         <item name="android:fontFamily">@font/poppins_bold</item>
         <item name="android:textSize">18sp</item>
     </style>
+
+<!--Authentications-->
+    
+    <style name="authText">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/lightBlue</item>
+    </style>
 </resources>

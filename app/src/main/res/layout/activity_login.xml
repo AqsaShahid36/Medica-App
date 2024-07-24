@@ -14,6 +14,6 @@
         android:text="Welcome"
         style="@style/bold_24"
         android:layout_gravity="center"
-        
+        android:textColor="@color/lightBlue"
 
 </LinearLayout>
