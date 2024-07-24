@@ -1,9 +1,47 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MedicaApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.MedicaApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/white</item>
     </style>
 
     <style name="Theme.MedicaApp" parent="Base.Theme.MedicaApp" />
+
+<!--    Light Theme-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+    </style>
+
+<!--    Font Family-->
+
+  <style name="bold_64">
+      <item name="android:fontFamily">@font/poppins_bold</item>
+      <item name="android:textSize">64sp</item>
+  </style>
+    
+    <style name="bold_48">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+    
+    <style name="bold_40">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    
+    <style name="bold_32">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    
+    <style name="bold_24">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <style name="bold_18">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>
