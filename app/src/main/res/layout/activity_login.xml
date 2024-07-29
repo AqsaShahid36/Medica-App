@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Your Email"
-            style="@style/authExtraText"
+            style="@style/inputText"
             android:layout_marginTop="16dp"
             android:inputType="textEmailAddress"
             android:maxLength="40"/>
@@ -57,14 +57,41 @@
             style="@style/emailText"/>
 
 
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Your Password"
-            style="@style/authExtraText"
+            style="@style/inputText"
             android:layout_marginTop="16dp"
             android:inputType="textPassword"
             android:maxLength="20"/>
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/eye_closed"-->
+<!--            android:layout_gravity="right"-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="right"
+            style="@style/authForgetText"/>
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="16dp"
+            style="@style/"/>
+
+
+
+
 
 
 

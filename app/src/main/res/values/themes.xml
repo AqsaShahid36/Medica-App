@@ -52,6 +52,11 @@
         <item name="android:textSize">26sp</item>
     </style>
 
+    <style name="bold_22">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
 
     <!--    Regular-->
 
@@ -67,6 +72,10 @@
         <item name="android:textSize">22sp</item>
     </style>
 
+    <style name="semiBold_18">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 
 
     <!--Authentications-->
@@ -74,7 +83,7 @@
     <style name="authText">
         <item name="android:fontFamily">@font/poppins_bold</item>
         <item name="android:textSize">26sp</item>
-        <item name="android:textColor">@color/lightBlue</item>
+        <item name="android:textColor">@color/primary_blue</item>
     </style>
     
     <style name="signInText">
@@ -86,12 +95,27 @@
     <style name="authExtraText">
         <item name="android:fontFamily">@font/poppins_regular</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/grey</item>
+        <item name="android:textColor">@color/gray</item>
     </style>
     
     <style name="emailText">
         <item name="android:fontFamily">@font/poppins_semibold</item>
         <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="inputText">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@drawable/input_field</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="authForgetText">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/black</item>
     </style>
 </resources>
